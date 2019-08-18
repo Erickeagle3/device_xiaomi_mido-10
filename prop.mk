@@ -75,7 +75,7 @@ persist.debug.coresight.config=stm-events
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-debug.egl.hw=0 \
+debug.egl.hw=1 \
 debug.enable.sglscale=1 \
 debug.gralloc.gfx_ubwc_disable=1 \
 debug.gralloc.enable_fb_ubwc=1 \
@@ -112,6 +112,13 @@ dalvik.vm.heapmaxfree=8m
 # DPM
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.dpm.feature=0
+
+# Rendering
+PRODUCT_PROPERTY_OVERRIDES += \
+debug.sf.disable_hwc=0 \
+debug.sf.recomputecrop=0 \
+persist.hwc.ptor.enable=true \
+debug.sf.gpu_comp_tiling=1
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
