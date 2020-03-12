@@ -68,8 +68,10 @@ persist.debug.coresight.config=stm-events
 PRODUCT_PROPERTY_OVERRIDES += \
 debug.egl.hw=0 \
 debug.enable.sglscale=1 \
+debug.gralloc.gfx_ubwc_disable=1 \
 debug.gralloc.enable_fb_ubwc=1 \
 debug.mdpcomp.logs=0 \
+debug.sf.latch_unsignaled=1 \
 debug.sf.enable_hwc_vds=1 \
 debug.sf.hw=0 \
 debug.sf.latch_unsignaled=0 \
@@ -191,7 +193,8 @@ ro.surface_flinger.protected_contents=true \
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
 ro.surface_flinger.max_virtual_display_dimension=4096 \
 ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
-ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
+ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000 \
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
