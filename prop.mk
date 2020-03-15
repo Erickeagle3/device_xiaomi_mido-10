@@ -26,7 +26,6 @@ vendor.audio.offload.multiple.enabled=false \
 vendor.audio.offload.track.enable=true \
 vendor.audio.parser.ip.buffer.size=0 \
 vendor.audio.playback.mch.downsample=true \
-vendor.audio.pp.asphere.enabled=false \
 vendor.audio.safx.pbe.enabled=true \
 vendor.audio.tunnel.encode=false \
 vendor.audio.use.sw.alac.decoder=true \
@@ -73,6 +72,7 @@ debug.gralloc.gfx_ubwc_disable=1 \
 debug.gralloc.enable_fb_ubwc=1 \
 debug.mdpcomp.logs=0 \
 debug.sf.latch_unsignaled=1 \
+debug.sf.disable_backpressure=1 \
 debug.sf.enable_hwc_vds=1 \
 debug.sf.hw=0 \
 debug.sf.latch_unsignaled=0 \
@@ -172,7 +172,9 @@ persist.vendor.radio.nitz_sons_3=""
 
 # Qualcomm
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.vendor.qti.va_aosp.support=1 \
+ro.vendor.qti.va_aosp.support=1
+
+PRODUCT_ODM_PROPERTIES += \
 ro.vendor.qti.va_odm.support=1
 
 # Radio
