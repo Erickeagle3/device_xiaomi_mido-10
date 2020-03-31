@@ -259,3 +259,37 @@ persist.sys.wfd.virtual=0
 # Netflix
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.netflix.bsp_rev=Q660-13149-1
+
+# Framework Boost
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.at_library=true \
+    vendor.iop.enable_uxe=1 \
+    vendor.perf.iop_v3.enable=true \
+    vendor.perf.iop_v3.enable.debug=false \
+    vendor.enable.prefetch=false \
+    vendor.iop.enable_prefetch_ofr=false \
+    vendor.perf.gestureflingboost.enable=true \
+    vendor.perf.workloadclassifier.enable=true
+
+# Increase The Time Between WiFi Network Scans
+PRODUCT_PROPERTY_OVERRIDES += \
+    wifi.supplicant_scan_interval=120
+
+# Improved Overall Performance
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.performance.tuning=1
+
+# Some build.prop tweaks for battery life
+PRODUCT_PROPERTY_OVERRIDES += \
+    wifi.supplicant_scan_interval=180 \
+    pm.sleep_mode=1 \
+    ro.ril.disable.power.collapse=0 \
+    ro.mot.eri.losalert.delay=1000 \
+    power_supply.wakeup=enable \
+    ro.config.hw_fast_dormancy=1 \
+    ro.config.hw_power_saving=1
+
+# Better signal
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.hw_fast_dormancy=1 \
+    persist.cust.tel.eons=1
