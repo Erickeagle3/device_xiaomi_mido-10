@@ -332,3 +332,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Better call voice quality
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.amr.wideband=1
+
+# Stream Videos Faster
+PRODUCT_PROPERTY_OVERRIDES += \
+    media.stagefright.enable-player=true \
+    media.stagefright.enable-meta=true \
+    media.stagefright.enable-scan=true \
+    media.stagefright.enable-http=true \
+    media.stagefright.enable-rtsp=true \
+    media.stagefright.enable-record=false
