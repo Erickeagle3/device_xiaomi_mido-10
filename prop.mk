@@ -328,3 +328,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     net.tcp.buffersize.edge=4096,87380,256960,4096,163 84,256960 \
     net.dns1=8.8.8.8 \
     net.dns2=8.8.4.4
+
+# Better call voice quality
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.ril.enable.amr.wideband=1
