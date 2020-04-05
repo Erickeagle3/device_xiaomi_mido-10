@@ -341,3 +341,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.enable-http=true \
     media.stagefright.enable-rtsp=true \
     media.stagefright.enable-record=false
+
+# Make Your Phone Ring as soon as you get a Call
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.telephony.call_ring.delay=0 \
+    ring.delay=0
