@@ -351,3 +351,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.lge.proximity.delay=25 \
     mot.proximity.delay=25
+
+# Additional props
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.qti.cgroup_follow.enable=true \
+    persist.vendor.qti.inputopts.enable=true \
+    persist.vendor.qti.inputopts.movetouchslop=0.6 \
+    ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
