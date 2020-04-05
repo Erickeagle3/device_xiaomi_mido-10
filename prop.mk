@@ -346,3 +346,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.delay=0 \
     ring.delay=0
+
+# Disables Black Screen After Call
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lge.proximity.delay=25 \
+    mot.proximity.delay=25
