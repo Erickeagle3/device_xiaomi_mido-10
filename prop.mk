@@ -115,6 +115,8 @@ persist.vendor.dpm.feature=0
 
 # Rendering
 PRODUCT_PROPERTY_OVERRIDES += \
+debug.enable.sglscale=1 \
+debug.egl.hw=1 \
 debug.sf.disable_hwc=0 \
 debug.sf.recomputecrop=0 \
 persist.hwc.ptor.enable=true \
