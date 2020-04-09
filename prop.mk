@@ -7,6 +7,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 dalvik.vm.dex2oat-filter=speed \
 dalvik.vm.image-dex2oat-filter=speed
 
+# Pixel identification
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.build.fingerprint=google/flame/flame:10/QQ2A.200405.005/6254899:user/release-keys
+
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
 af.fast_track_multiplier=2 \

@@ -44,8 +44,3 @@ TARGET_VENDOR := Xiaomi
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-# Build info
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200405.005/6254899:user/release-keys"
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="coral-user 10 QQ2A.200405.005 6254899 release-keys"
