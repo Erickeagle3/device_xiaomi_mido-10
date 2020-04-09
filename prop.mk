@@ -120,15 +120,6 @@ dalvik.vm.heapmaxfree=8m
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.dpm.feature=0
 
-# Rendering
-PRODUCT_PROPERTY_OVERRIDES += \
-debug.enable.sglscale=1 \
-debug.egl.hw=1 \
-debug.sf.disable_hwc=0 \
-debug.sf.recomputecrop=0 \
-persist.hwc.ptor.enable=true \
-debug.sf.gpu_comp_tiling=1
-
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
 drm.service.enabled=true
@@ -233,16 +224,6 @@ service.qti.ims.enabled=1 \
 ro.telephony.use_old_mnc_mcc_format=true
 
 # SurfaceFlinger
-PRODUCT_PROPERTY_OVERRIDES += \
-debug.sf.enable_gl_backpressure=1 \
-debug.sf.early_phase_offset_ns=500000 \
-debug.sf.early_app_phase_offset_ns=500000 \
-debug.sf.early_gl_phase_offset_ns=3000000 \
-debug.sf.early_gl_app_phase_offset_ns=15000000 \
-ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
-ro.surface_flinger.max_virtual_display_dimension=4096
-
-# SurfaceFlinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 ro.surface_flinger.protected_contents=true \
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
@@ -252,7 +233,11 @@ ro.surface_flinger.vsync_sf_event_phase_offset_ns=8000000 \
 ro.surface_flinger.set_display_power_timer_ms=10000 \
 ro.surface_flinger.set_touch_timer_ms=5000 \
 ro.surface_flinger.set_idle_timer_ms=9000 \
-ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
+debug.sf.early_phase_offset_ns=500000 \
+debug.sf.early_app_phase_offset_ns=500000 \
+debug.sf.early_gl_phase_offset_ns=3000000 \
+debug.sf.early_gl_app_phase_offset_ns=15000000
 
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
