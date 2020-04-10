@@ -41,6 +41,8 @@ vendor.voice.path.for.pcm.voip=true \
 vendor.voice.playback.conc.disabled=true \
 vendor.voice.record.conc.disabled=false \
 vendor.voice.voip.conc.disabled=true \
+persist.sys.wfd.nohdcp=1 \
+vendor.gralloc.disable_wb_ubwc=1 \
 sys.display-size=1920x1080
 
 # Bluetooth
