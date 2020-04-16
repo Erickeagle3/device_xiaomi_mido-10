@@ -14,7 +14,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
 af.fast_track_multiplier=2 \
-audio.deep_buffer.media=true \
 audio.offload.disable=false \
 audio.offload.video=true \
 persist.audio.dirac.speaker=true \
