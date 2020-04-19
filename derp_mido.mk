@@ -21,22 +21,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
-# Inherit some common Ancient ROM stuff.
-$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
+# Inherit some common DerpFest stuffs.
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Gapps
 TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
-
-# Boot Animation res
 TARGET_BOOT_ANIMATION_RES := 1080
+IS_PHONE := true
+TARGET_MINIMAL_APPS := false
+TARGET_INCLUDE_STOCK_ARCORE := true
 
-# Some Extra's
-ANCIENT_OFFICIAL=true
+# Official-ify
+DERP_BUILDTYPE := Official
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := ancient_mido
+PRODUCT_NAME := derp_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
