@@ -426,7 +426,6 @@ PRODUCT_PACKAGES += \
     libaacwrapper \
     libnl \
     libwfdaac
-    CarrierConfig
 
 # Via
 PRODUCT_PACKAGES += \
