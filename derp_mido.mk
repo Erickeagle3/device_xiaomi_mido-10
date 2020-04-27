@@ -34,9 +34,6 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 # Official-ify
 DERP_BUILDTYPE := Official
 
-# OTA for Gapps Variant only
-FORCE_OTA=true
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
 PRODUCT_NAME := derp_mido
