@@ -131,6 +131,10 @@ PRODUCT_PACKAGES += \
     libmm-qcamera \
     Snap
 
+# Doze
+PRODUCT_PACKAGES += \
+    CustomDoze
+
 # Consumerir
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-service.xiaomi_mido
