@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015-2018 AOSiP
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+ <!-- About - Device specific links -->
+<string name="about_device_fw_ver" translatable="false">global-mido-firmware-11.0.2.0.zip</string> <!-- Firmware version -->
+<string name="about_device_fw_link" translatable="false">https://qc5.androidfilehost.com/dl/QR0tIqmIA4KGd3BfwDDIyg/1591042018/4349826312261634566/global-mido-firmware-11.0.2.0.zip</string> <!-- Firmware link -->
+<string name="about_device_recovery_ver" translatable="false">twrp-3.2.3-1-mido.img</string> <!-- Recovery version -->
+<string name="about_device_recovery_link" translatable="false">https://sourceforge.net/projects/recovery-mido/files/twrp-3.2.3-1-mido.img/download</string> <!-- Recovery link -->
+<string name="maintainer_name">Erick Eagle</string>
+<string name="maintainer_telegram">https://telegram.me/NBD_ERICK</string>
+</resources>
