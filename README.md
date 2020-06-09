@@ -20,4 +20,4 @@
 
 ## Device Picture
 
-![Redmi Note 4](http://i01.appmifile.com/webfile/globalimg/7/537557F3-A4F1-2490-E9D3-138B2A11DBF6.png "Redmi Note 4")
+![Redmi Note 4](https://cdn.gsmarena.com/imgroot/news/17/01/blue-black-redmi-note4/inline/-728x/gsmarena_000.jpg "Redmi Note 4")
