@@ -377,8 +377,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
-    vndk_package \
-    libstdc++.vendor
+    vndk-sp
 
 # Whitelisted apps
 PRODUCT_COPY_FILES += \
