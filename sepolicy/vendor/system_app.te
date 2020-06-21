@@ -15,7 +15,6 @@ allow system_app spectrum_prop:property_service set;
 get_prop(system_app, spectrum_prop);
 allow system_app camera_prop:property_service set;
 get_prop(system_app, camera_prop);
-allow system_app sysfs:file { getattr open read write };
 
 allow system_app sysfs_backlight:file { open read getattr write };
 allow system_app sysfs_egain:file { open read getattr write };
