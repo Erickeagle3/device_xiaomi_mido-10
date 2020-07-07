@@ -408,15 +408,7 @@ PRODUCT_COPY_FILES += \
 
 # Wi-Fi Display
 PRODUCT_PACKAGES += \
-    libaacwrapper \
-    libnl \
-    libwfdaac
-
-# Via
-PRODUCT_PACKAGES += \
-    Via
-
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
+    libnl
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
