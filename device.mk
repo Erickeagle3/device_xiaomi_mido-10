@@ -420,3 +420,7 @@ PRODUCT_PACKAGES += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# Firefox
+PRODUCT_PACKAGES += \
+    Firefox
