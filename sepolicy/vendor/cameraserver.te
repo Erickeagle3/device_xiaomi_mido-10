@@ -1,0 +1,2 @@
+allow cameraserver persist_camera_prop:file { read };
+
