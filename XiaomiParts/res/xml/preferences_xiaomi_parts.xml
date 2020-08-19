@@ -106,13 +106,6 @@
         android:key="boost"
         android:title="@string/boost_title" >
 
-        <com.xiaomi.parts.preferences.SecureSettingSwitchPreference
-            android:key="touchboost"
-            android:defaultValue="true"
-            android:title="@string/touchboost_title"
-            android:icon="@drawable/ic_boost"
-            android:summary="@string/touchboost_summary" />
-
         <com.xiaomi.parts.preferences.SecureSettingListPreference
             android:defaultValue="0"
             android:dialogTitle="@string/cpuboost_dialogTitle"
