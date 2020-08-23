@@ -425,6 +425,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
-# Firefox
-PRODUCT_PACKAGES += \
-    Firefox
