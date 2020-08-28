@@ -191,6 +191,13 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
     android.hardware.gatekeeper@1.0-service
 
+# Google Camera Go
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/com.google.android.apps.cameraslite.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.apps.cameraslite.xml
+
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
 # GPS
 PRODUCT_PACKAGES += \
     libcurl
@@ -406,10 +413,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
-
-# GCam Go
-PRODUCT_PACKAGES += \
-    GCam
 
 # XiaomiParts
 PRODUCT_PACKAGES += \
